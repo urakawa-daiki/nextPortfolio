@@ -32,10 +32,10 @@ export default function Skill() {
         >
           <CardBody m={"auto"} maxW={"3xl"}>
             <List textAlign={"left"}>
-              <Text fontSize={{ base: "md" }} as={"li"}>
+              <Text fontSize={{ base: "sm", md: "md" }} as={"li"}>
                 前職ではフロントエンドエンジニアとしての業務にとどまらず、アプリのリリースやサーバーの移行といった、システム全体の基盤作りも経験してきました。
               </Text>
-              <Text fontSize={{ base: "md" }} as={"li"}>
+              <Text fontSize={{ base: "sm", md: "md" }} as={"li"}>
                 また常日頃からスピーディに業務を進められるよう、前職時から現在に至るまで、自己学習として実際に自分でもアプリの開発やサーバーの構築を行い、システム開発全体で用いられる技術について学習しています。
               </Text>
             </List>
@@ -138,17 +138,17 @@ function SkillsTemplate({
             color="blackAlpha.700"
           >
             <GridItem pl="2" area={"languageHeader"}>
-              <Text fontSize={{ base: "sm", md: "md" }} mr={4}>
+              <Text fontSize={{ base: "xs", md: "md" }} mr={4}>
                 技術
               </Text>
             </GridItem>
             <GridItem pl="2" area={"experienceHeader"}>
-              <Text fontSize={{ base: "sm", md: "md" }} mr={4}>
+              <Text fontSize={{ base: "xs", md: "md" }} mr={4}>
                 経験年数
               </Text>
             </GridItem>
             <GridItem pl="2" area={"levelHeader"}>
-              <Text fontSize={{ base: "sm", md: "md" }} mr={4}>
+              <Text fontSize={{ base: "xs", md: "md" }} mr={4}>
                 スキル
               </Text>
             </GridItem>
@@ -169,7 +169,7 @@ function SkillsTemplate({
             <GridItem pl="2" area={"experience"}>
               {experiences.map((language) => (
                 <ItemContainer key={language}>
-                  <Text mb={2} fontSize={{ base: "sm", md: "lg" }} mr={4}>
+                  <Text mb={2} fontSize={{ base: "xs", md: "lg" }} mr={4}>
                     {language}
                   </Text>
                 </ItemContainer>
@@ -183,7 +183,7 @@ function SkillsTemplate({
                       value={v}
                       colorScheme={"messenger"}
                       w={{ base: "auto", md: "sm" }}
-                      minW={200}
+                      minW={140}
                     />
                   </ItemContainer>
                 ))}
