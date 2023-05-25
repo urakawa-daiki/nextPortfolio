@@ -144,7 +144,7 @@ function SkillsTemplate({
             </GridItem>
             <GridItem pl="2" area={"experienceHeader"}>
               <Text fontSize={{ base: "xs", md: "md" }} mr={4}>
-                経験年数
+                年数
               </Text>
             </GridItem>
             <GridItem pl="2" area={"levelHeader"}>
