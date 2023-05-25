@@ -24,8 +24,8 @@ export default function About() {
             <Image
               src="/profile.jpg"
               alt={"profile"}
-              width={200}
-              height={200}
+              width={360}
+              height={360}
               style={{
                 height: "auto",
                 borderRadius: "10%",
@@ -36,7 +36,7 @@ export default function About() {
             <HStack
               justifyContent={"space-between"}
               mb={2}
-              mt={{ base: 8, md: 0 }}
+              mt={{ base: 10, md: 0 }}
             >
               <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight={600}>
                 浦川大輝
