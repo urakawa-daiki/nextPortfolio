@@ -45,11 +45,11 @@ export default function About() {
                 DAIKI URAKAWA
               </Text>
             </HStack>
-            <Text fontSize={{ base: "md", md: "lg" }}>
+            <Text fontSize={{ base: "sm", md: "lg" }}>
               はじめまして!私はIT業界で3年目の社会人です。新卒時に通販会社が立ち上げた新規事業のアプリ開発部署に入社しました。
               1年目では、Next.jsを用いて社内管理システムの開発に携わりました。2年目には、フロントエンドに関わらず、バックエンドやインフラも含めたフルスタックな環境でアプリ開発に取り組みました。
             </Text>
-            <Text fontSize={{ base: "md", md: "lg" }}>
+            <Text fontSize={{ base: "sm", md: "lg" }}>
               現在は、受託開発とコーヒーの焙煎を記録するWebサービスの開発に主に取り組んでいます。多様なプロジェクトに携わりながら、常に品質とユーザーエクスペリエンスの向上を追求しています。
             </Text>
           </Box>
