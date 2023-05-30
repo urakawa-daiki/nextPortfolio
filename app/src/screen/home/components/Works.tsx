@@ -4,9 +4,7 @@ import {
   Heading,
   Text,
   Stack,
-  Flex,
   Container,
-  Avatar,
   Button,
 } from "../../../common";
 import Image from "next/image";
@@ -39,7 +37,7 @@ export default function Works() {
           />
           <WorksCard
             title="CROSS TOKYO"
-            text="このサイトは、CROSS TOKYO様からのご依頼を受け、Studioを使用して制作いたしました。"
+            text="このサイトは、株式会社CROSS TOKYO様からのご依頼を受け、Studioを使用して制作いたしました。"
             image="/works/crosstokyo.png"
             url="https://www.crosstokyo.co.jp/"
           />
