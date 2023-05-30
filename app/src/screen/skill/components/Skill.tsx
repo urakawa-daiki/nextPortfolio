@@ -14,6 +14,8 @@ import {
   List,
 } from "../../../common";
 import { MdMonitor } from "react-icons/md";
+import { BiServer } from "react-icons/bi";
+import { AiOutlineCloudServer, AiOutlineSetting } from "react-icons/ai";
 
 export default function Skill() {
   return (
@@ -43,7 +45,14 @@ export default function Skill() {
         </Card>
 
         <SkillsTemplate
-          title={"フロントエンド"}
+          title={
+            <>
+              <MdMonitor size={32} />
+              <Heading ml={1} size="lg">
+                フロントエンド
+              </Heading>
+            </>
+          }
           skills={[
             { technology: "JavaScript", experience: "2年", level: 80 },
             { technology: "TypeScript", experience: "2年", level: 80 },
@@ -52,11 +61,25 @@ export default function Skill() {
           ]}
         />
         <SkillsTemplate
-          title={"バックエンド"}
+          title={
+            <>
+              <BiServer size={28} />
+              <Heading ml={1} size="lg">
+                バックエンド
+              </Heading>
+            </>
+          }
           skills={[{ technology: "Node.js", experience: "1.5年", level: 70 }]}
         />
         <SkillsTemplate
-          title={"インフラ"}
+          title={
+            <>
+              <AiOutlineCloudServer size={30} />
+              <Heading ml={1} size="lg">
+                インフラ
+              </Heading>
+            </>
+          }
           skills={[
             { technology: "AWS", experience: "1年", level: 50 },
             { technology: "firebase", experience: "2年", level: 70 },
@@ -65,10 +88,20 @@ export default function Skill() {
           ]}
         />
         <SkillsTemplate
-          title={"その他"}
+          title={
+            <>
+              <AiOutlineSetting size={30} />
+              <Heading ml={1} size="lg">
+                その他
+              </Heading>
+            </>
+          }
           skills={[
             { technology: "Git", experience: "2年", level: 70 },
             { technology: "Figma", experience: "2年", level: 60 },
+            { technology: "Xcode", experience: "1.5年", level: 60 },
+            { technology: "android studio", experience: "1.5年", level: 60 },
+            { technology: "VScode", experience: "3年", level: 70 },
           ]}
         />
       </Box>
@@ -121,10 +154,7 @@ function SkillsTemplate({
           justifyContent={"center"}
           mt={6}
         >
-          <MdMonitor size={32} />
-          <Heading ml={1} size="lg">
-            {title}
-          </Heading>
+          {title}
         </CardHeader>
         <CardBody display={"flex"} justifyContent={"center"}>
           <Grid
