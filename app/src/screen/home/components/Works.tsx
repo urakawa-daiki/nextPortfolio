@@ -4,9 +4,7 @@ import {
   Heading,
   Text,
   Stack,
-  Flex,
   Container,
-  Avatar,
   Button,
 } from "../../../common";
 import Image from "next/image";
