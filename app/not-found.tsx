@@ -11,7 +11,7 @@ export default function NotFound() {
         alignItems={"center"}
         justifyContent={"center"}
       >
-        <Heading mb={8}>お探しのページがが見つかりませんでした。</Heading>
+        <Heading mb={8}>お探しのページが見つかりませんでした。</Heading>
         <Button as={NextLink} href="/">
           トップへ戻る
         </Button>
